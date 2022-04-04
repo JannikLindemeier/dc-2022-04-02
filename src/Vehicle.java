@@ -1,6 +1,4 @@
-public class Vehicle {
+public abstract class Vehicle {
 
-    public void drive(){
-        System.out.println("I'm driving");
-    }
+    public abstract void drive();
 }
