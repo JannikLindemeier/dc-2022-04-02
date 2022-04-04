@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,6 +15,8 @@ public class Main {
             testList.add(test[i]);
         }
 
-        System.out.println(testList);
+        for (String s : test) {
+            testList.add(s);
+        }
     }
 }
