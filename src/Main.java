@@ -1,8 +1,11 @@
-import java.util.ArrayList;
-
 public class Main {
     public static void main(String[] args) {
-        ArrayList<String> test = new ArrayList<>();
-        System.out.println("");
+        Bike bike = new Bike();
+        Car car = new Car();
+
+        bike.drive();
+        car.drive();
+
+        bike.ring();
     }
 }
